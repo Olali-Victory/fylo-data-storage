@@ -1,0 +1,179 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url("./images/bg-desktop.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: hsl(229, 57%, 11%);
+    margin: 0px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 200px;
+}
+
+.opt{
+    height: 25px;
+    width: 30px;
+    border: 2px solid hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20%;
+    padding: 10px;
+    margin: 5px;
+    align-self: center;
+}
+
+.Fylo{
+    border: 2px solid hsl(228, 56%, 26%);
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    border-left: 50px solid hsl(228, 56%, 26%);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-bottom: 20px;   
+    margin-right: 25px;
+}
+
+.bar{
+    background-color: hsl(228, 56%, 26%);
+    width: 500px;
+    height: 150px;
+    border: 2px solid hsl(228, 56%, 26%);
+    border-left : 50px solid hsl(228, 56%, 26%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    flex-flow: column wrap;
+    margin-top: +50px;
+}
+
+.logo{
+    padding-bottom: 10px;
+}
+
+.full-meter{
+    display: flex;  
+    flex-flow: column wrap; 
+}
+
+.meter{
+    border: 2px solid hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 450px;
+    height: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fill-meter{
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 100px;
+    height: 80%;
+    width: 366.75px;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+    margin-left: 2px;
+}
+
+.dot{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 100%;
+    height: 8px;
+    width: 8px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px;
+}
+
+.value{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.begin{
+    align-self: flex-start;
+    flex-flow: row nowrap;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.speech-bubble{
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-right: 1px;;
+    height: 75px;
+    width: 200px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: bold;
+    margin-left: 300px;
+    position: absolute;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 30px 30px 10px;
+    border-color: transparent white transparent transparent;
+    bottom: -25px;
+    position: absolute;
+    right: 0;
+}
+
+.real{
+    padding-right: 2px;
+    font-size: 50px;
+    margin-left: 2px;
+}
+
+.text{
+    display: flex;
+    flex-flow: nowrap;
+    padding: 10px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    font-style: none;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.real-deal{
+    font-style: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 700;
+}
+
+.rest{
+    color: hsl(229, 7%, 55%);
+    
+}
